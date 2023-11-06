@@ -1,5 +1,0 @@
-# Pasta com dependencias
-/node_modules
-
-# Arquivo json desnecessario
-package-lock.json
