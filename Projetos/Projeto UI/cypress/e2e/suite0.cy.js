@@ -75,7 +75,7 @@ describe('template spec', () => {
 
     //Acoes para acessar a pagina de login
     cy.get('#menu-item-20 > a').click()
-    cy.get('.wp-container-3 > [style="flex-basis:33.33%"] > p > a').click()
+    cy.get('.wp-container-core-columns-layout-1 > [style="flex-basis:33.33%"] > p > a').click()
 
     //Assercao
     cy.get('h2').should('have.text', 'Test login')
